@@ -1,0 +1,25 @@
+[21:00:07] [Client thread/INFO]: Setting user: Player196
+[21:00:09] [Client thread/INFO]: LWJGL Version: 2.9.1
+[21:00:12] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Example Mod
+[21:00:13] [Client thread/ERROR]: Couldn't initialize twitch stream
+[21:00:13] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[21:00:13] [Thread-7/INFO]: Initializing LWJGL OpenAL
+[21:00:13] [Thread-7/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[21:00:14] [Thread-7/ERROR]: Error in class 'LibraryLWJGLOpenAL'
+[21:00:14] [Thread-7/ERROR]: Unable to initialize OpenAL.  Probable cause: OpenAL not supported.
+[21:00:14] [Thread-7/WARN]: ERROR MESSAGE:
+[21:00:14] [Thread-7/INFO]: Could not locate OpenAL library.
+[21:00:14] [Thread-7/WARN]: STACK TRACE:
+[21:00:14] [Thread-7/INFO]: org.lwjgl.openal.AL.create(AL.java:151)
+[21:00:14] [Thread-7/INFO]: org.lwjgl.openal.AL.create(AL.java:102)
+[21:00:14] [Thread-7/INFO]: org.lwjgl.openal.AL.create(AL.java:201)
+[21:00:14] [Thread-7/INFO]: paulscode.sound.libraries.LibraryLWJGLOpenAL.init(LibraryLWJGLOpenAL.java:164)
+[21:00:14] [Thread-7/INFO]: paulscode.sound.SoundSystem.CommandNewLibrary(SoundSystem.java:1576)
+[21:00:14] [Thread-7/INFO]: paulscode.sound.SoundSystem.CommandQueue(SoundSystem.java:2572)
+[21:00:14] [Thread-7/INFO]: paulscode.sound.CommandThread.run(CommandThread.java:121)
+[21:00:14] [Sound Library Loader/WARN]: ERROR MESSAGE:
+[21:00:14] [Sound Library Loader/INFO]: Could not locate OpenAL library.
+[21:00:14] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[21:00:15] [Thread-9/INFO]: Switching to No Sound
+[21:00:15] [Thread-9/INFO]: (Silent Mode)
+[21:00:15] [Sound Library Loader/INFO]: Sound engine started
